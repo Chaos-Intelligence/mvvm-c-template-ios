@@ -3,7 +3,8 @@ import Combine
 
 class ___FILEBASENAMEASIDENTIFIER___: BaseViewModel {
   
-  // MARK: - Properties
+  // MARK: - 
+  // MARKL Properties
   
   let coordinator: ___VARIABLE_productName___Coordinator
   
@@ -11,7 +12,9 @@ class ___FILEBASENAMEASIDENTIFIER___: BaseViewModel {
   
   private let store = ___VARIABLE_productName___Store()
   
-  // MARK: - Functions
+  // MARK: - 
+  // MARK: Functions
+  
   // MARK: Init
   
   init(coordinator: ___VARIABLE_productName___Coordinator) {

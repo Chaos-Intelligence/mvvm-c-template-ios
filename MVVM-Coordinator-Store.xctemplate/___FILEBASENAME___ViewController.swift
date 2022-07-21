@@ -24,8 +24,8 @@ class ___FILEBASENAMEASIDENTIFIER___: BaseController {
     setupBindings()
   }
   
-  // MARK:
-  // MARK: - Initialization
+  // MARK: -
+  // MARK: Initialization
   
   init(viewModel: ___VARIABLE_productName___ViewModel) {
     self.viewModel = viewModel

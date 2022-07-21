@@ -3,13 +3,16 @@ import UIKit
 
 class ___FILEBASENAMEASIDENTIFIER___: NSObject, Coordinator {
   
-  // MARK: - Properties
+  // MARK: - 
+  // MARK: Properties
   
   var childCoordinators = [Coordinator]()
   var navigationController: BaseNavigationController
   var cancellables = Set<AnyCancellable>()
   
-  // MARK: - Functions
+  // MARK: - 
+  // MARK: Functions
+  
   // MARK: Initialization
   
   init(navigationController: BaseNavigationController) {
