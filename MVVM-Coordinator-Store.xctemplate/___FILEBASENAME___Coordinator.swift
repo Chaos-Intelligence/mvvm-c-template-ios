@@ -1,7 +1,7 @@
 import Combine
 import UIKit
 
-class ___VARIABLE_sceneName___Coordinator: NSObject, Coordinator {
+class ___FILEBASENAMEASIDENTIFIER___: NSObject, Coordinator {
   
   // MARK: - Properties
   
@@ -17,7 +17,7 @@ class ___VARIABLE_sceneName___Coordinator: NSObject, Coordinator {
   }
   
   func start() {
-    let controller = ___VARIABLE_sceneName___ViewController(viewModel: .init(coordinator: self))
+    let controller = ___VARIABLE_productName___ViewController(viewModel: .init(coordinator: self))
     navigationController.setViewControllers([controller], animated: true)
   }
 }

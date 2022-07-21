@@ -2,9 +2,9 @@ import SnapKit
 import UIKit
 
 /**
- The rootView of the `___VARIABLE_sceneName___ViewController`
+ The rootView of the `___VARIABLE_productName___ViewController`
  */
-class ___VARIABLE_sceneName___View: ProgrammaticView {
+class ___FILEBASENAMEASIDENTIFIER___: ProgrammaticView {
   
   // MARK: -
   // MARK: Properties

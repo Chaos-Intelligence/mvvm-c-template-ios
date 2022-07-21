@@ -1,7 +1,7 @@
 import Combine
 import UIKit
 
-class ___VARIABLE_sceneName___ViewController: BaseController {
+class ___FILEBASENAMEASIDENTIFIER___: BaseController {
   
   // MARK: -
   // MARK: Properties
@@ -15,7 +15,7 @@ class ___VARIABLE_sceneName___ViewController: BaseController {
   override func loadView() {
     super.loadView()
     
-    view = ___VARIABLE_sceneName___View()
+    view = ___VARIABLE_productName___View()
   }
   
   override func viewDidLoad() {
@@ -41,7 +41,7 @@ class ___VARIABLE_sceneName___ViewController: BaseController {
 // MARK: -
 // MARK: Setup
 
-private extension ___VARIABLE_sceneName___ViewController {
+private extension ___VARIABLE_productName___ViewController {
   func setupBindings() {
     bindForms()
     bindActions()
@@ -64,8 +64,8 @@ private extension ___VARIABLE_sceneName___ViewController {
 // MARK: -
 // MARK: RootView
 
-extension ___VARIABLE_sceneName___ViewController {
-  var rootView: ___VARIABLE_sceneName___View {
-    view as! ___VARIABLE_sceneName___View
+extension ___VARIABLE_productName___ViewController {
+  var rootView: ___VARIABLE_productName___View {
+    view as! ___VARIABLE_productName___View
   }
 }
