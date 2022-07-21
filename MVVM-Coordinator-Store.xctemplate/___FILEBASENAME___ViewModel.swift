@@ -5,7 +5,7 @@ class ___FILEBASENAMEASIDENTIFIER___: BaseViewModel {
   
   // MARK: - Properties
   
-  let coordinator: ___VARIABLE_productName___FlowCoordinator
+  let coordinator: ___VARIABLE_productName___Coordinator
   
   var state = PassthroughSubject<ViewModelState<Any>, Never>()
   

@@ -6,7 +6,7 @@ class ___FILEBASENAMEASIDENTIFIER___: BaseController {
   // MARK: -
   // MARK: Properties
   
-  let viewModel: LoginViewModel!
+  let viewModel: ___VARIABLE_productName___ViewModel!
   var cancellables = Set<AnyCancellable>()
 
   // MARK: -
@@ -27,8 +27,9 @@ class ___FILEBASENAMEASIDENTIFIER___: BaseController {
   // MARK:
   // MARK: - Initialization
   
-  init(viewModel: LoginViewModel) {
+  init(viewModel: ___VARIABLE_productName___ViewModel) {
     self.viewModel = viewModel
+
     super.init(nibName: nil, bundle: nil)
     
   }
